@@ -1,0 +1,83 @@
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+    margin-bottom: 5vh;
+    width: 100vw;
+}
+
+.homeContainer header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 20vh;
+}
+
+.homeContainer header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #121214c4;
+}
+
+.h1Business {
+    font-weight: 800;
+    background: linear-gradient(89.86deg, #9572FC, #43E7AD, #E1D55D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.homeContainer div {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+
+.homeContainer div img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.homeContainer header div p {
+    line-height: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #121214c4;
+
+}
+
+.pName {
+    font-weight: 800;
+}
+
+.valueBoxContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 450px) {
+    .homeContainer header h1 {
+        font-size: 2.5rem;
+    }
+    .homeContainer header div {
+        gap: .5rem;
+    }
+    .homeContainer header div p {
+        font-size: 1rem;
+    }
+    .homeContainer header div img {
+        visibility: hidden;
+    }
+
+    .valueBoxContainer {
+        gap: .3rem;
+    }
+
+}
+

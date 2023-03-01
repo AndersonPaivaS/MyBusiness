@@ -1,0 +1,61 @@
+
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50vw;
+    padding: 2rem;
+    margin-top: 5vh;
+
+    border-radius: 10px;
+    background-color: #d3e0ea49;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid #9472fc10;
+}
+
+.header h3 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #121214c4;
+
+    width: 10rem;
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.client {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.client h4, button {
+    width: 10rem; 
+}
+
+.client button {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .tableContainer {
+        min-width: 21rem;
+    }
+    .header h3 {
+        font-size: .7rem;
+    }
+}
