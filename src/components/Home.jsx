@@ -17,15 +17,15 @@ export default function Game() {
           {target <= amount ? 
           
           <div>
-            <img src="../../public/icons/rocket-up.png" alt="Foguete para cima" />
+            <img src={`https://github.com/AndersonPaivaS/MyBusiness/raw/main/public/icons/rocket-up.png`} alt="Foguete para cima" />
             <p>Parabéns, <span className={styles.pName}>{name}!</span><br />{`A meta de R$ ${target} deste mês já foi atingida`}</p>
-            <img src="../../public/icons/rocket-up.png" alt="Foguete para cima" />
+            <img src={`https://github.com/AndersonPaivaS/MyBusiness/raw/main/public/icons/rocket-up.png`} alt="Foguete para cima" />
           </div>
           :
           <div>
-            <img src="../../public/icons/rocket-crash.png" alt="Foguete para cima" />
+            <img src={`https://github.com/AndersonPaivaS/MyBusiness/raw/main/public/icons/rocket-crash.png`} alt="Foguete para cima" />
             <p>Poxa, <span className={styles.pName}>{name}!</span><br />{`A meta de R$${target} deste mês ainda não foi atingida`}</p>
-            <img src="../../public/icons/rocket-crash.png" alt="Foguete caindo" />
+            <img src={`https://github.com/AndersonPaivaS/MyBusiness/raw/main/public/icons/rocket-crash.png`} alt="Foguete caindo" />
           </div>}
       </header>
 
