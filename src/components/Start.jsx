@@ -10,7 +10,7 @@ export default function Start() {
   return (
     <div className={styles.startContainer}>
       <header>
-        <img src="../../public/icons/rocket.png" alt="Foguete" />
+        <img src={`https://github.com/AndersonPaivaS/MyBusiness/raw/main/public/icons/rocket.png`} alt="Foguete" />
         <h1>Configure o seu <span className={styles.h1Business}>Negócio</span></h1>
       </header>
 
