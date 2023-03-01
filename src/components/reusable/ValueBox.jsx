@@ -7,7 +7,7 @@ export default function ValueBox({mode, emoji, value}) {
         <div>
             <h2>{mode}</h2>
             <h1>{value}</h1>
-            <img src={`../../../public/icons/${emoji}.png`} alt="" />
+            <img src={`https://github.com/AndersonPaivaS/MyBusiness/raw/main/public/icons/${emoji}.png`} alt="emoji" />
         </div>
     </div>
   )
